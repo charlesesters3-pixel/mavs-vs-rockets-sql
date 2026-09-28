@@ -1,0 +1,1 @@
+Chart screenshots from Snowsight.
