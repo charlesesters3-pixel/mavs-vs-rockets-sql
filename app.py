@@ -192,7 +192,7 @@ for col, team in zip(cols, [DAL, HOU]):
         st.markdown(f"<h3 style='color:{COLORS[team]};margin-bottom:0'>{team}</h3>", unsafe_allow_html=True)
         a, b, c = st.columns(3)
         a.metric("Record", r["record"])
-           a.caption(f"{r['win_pct']:.3f} win percentage")
+        a.caption(f"{r['win_pct']:.3f} win percentage")
         b.metric("Playoff trips", int(r["playoff_trips"]))
         c.metric("Titles", int(r["titles"]))
         a2, b2, c2 = st.columns(3)
