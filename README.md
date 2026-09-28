@@ -1,6 +1,7 @@
 # Mavericks vs. Rockets: Which Franchise Has Been Better?
 
 **Tools:** Snowflake, SQL (window functions, CTEs, views, QUALIFY), Snowsight charts
+
 **Author:** Charles Esters III
 
 ## The Question
